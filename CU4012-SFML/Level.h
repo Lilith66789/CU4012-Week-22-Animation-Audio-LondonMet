@@ -7,6 +7,8 @@
 #include "Framework/World.h"
 #include "Framework/TileManager.h"
 #include "Framework/AudioManager.h"
+#include "Zombie.h"
+#include "Mario.h"
 #include <string>
 #include <iostream>
 
@@ -21,4 +23,8 @@ public:
 	void adjustViewToWindowSize(unsigned int width, unsigned int height);
 private:
 	// Default variables for level class.
+
+	Zombie zomb;
+
+	Mario mario;
 };
